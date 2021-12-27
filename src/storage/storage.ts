@@ -33,7 +33,7 @@ class Storage {
         }
         const value = this.store.getItem(encodeURIComponent(key));
         try {
-            const valueJson = JSON.parse(decodeURIComponent(key))
+            const valueJson = JSON.parse(decodeURIComponent(value))
             if(typeof valueJson ==='object'){
                 return valueJson
             } else {
