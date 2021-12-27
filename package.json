@@ -1,6 +1,6 @@
 {
   "name": "@lola/tools-storage",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "storage/cookie",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/yxm0123/tools-storage.git"
   },
-  "author": "",
+  "author": {
+    "name": "lola",
+    "email": "771685455@qq.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.59.1",
